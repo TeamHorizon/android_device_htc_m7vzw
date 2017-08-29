@@ -8,7 +8,7 @@ $(call inherit-product, device/htc/m7-common/m7-common.mk)
 $(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
 
 # Get non-open-source specific aspects		
-$(call inherit-product, vendor/htc/m7vwz/m7vzw-vendor.mk)
+$(call inherit-product, vendor/htc/m7vzw/m7vzw-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/htc/m7vzw/overlay
